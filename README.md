@@ -59,17 +59,18 @@ bat-ball-stump-game
 
 ## 🚀 How to Run
 
+### Option 1: Play Online
+
+Open the live demo in your browser:
+
+https://pragati-003.github.io/bat-ball-stump-game/
+
+### Option 2: Run Locally
+
 1. Clone the repository:
 
 ```bash
 git clone https://github.com/pragati-003/bat-ball-stump-game.git
-```
-
-2. Open the project folder.
-
-3. Open https://pragati-003.github.io/bat-ball-stump-game/ in your browser.
-
----
 
 ## 👩‍💻 Author
 
