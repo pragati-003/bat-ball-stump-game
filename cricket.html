@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cricket Game</title>
+    <link rel="stylesheet" href="cricket.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Bat Ball Stump Game</h1>
+
+        <div class="score-card">
+            <h2 id="score"></h2>
+        </div>   
+
+        <!-- BUTTON FOR BAT   -->
+        <button class="choice-button" onclick="
+
+        let computerMove = generateComputerChoice();
+        let result = getResult('Bat',computerMove);
+
+        showResult('Bat', computerMove, result);
+        
+        "><img src="images/bat.png" alt="Bat Image" class="choice-image"></button>
+
+        <!-- BUTTON FOR BALL   -->
+        <button class="choice-button" onclick="
+        computerMove =  generateComputerChoice();
+        result = getResult('Ball',computerMove);
+
+        showResult('Ball', computerMove, result);
+        
+        "><img src="images/ball.png" alt="Ball Image" class="choice-image"></button>
+
+        <!-- BUTTON FOR STUMP   -->
+        <button class="choice-button" onclick="
+        computerMove = generateComputerChoice();
+        result = getResult('Stump',computerMove);
+
+        showResult('Stump', computerMove, result);
+        
+        "><img src="images/stump.png" alt="Bat Image" class="choice-image"></button>
+
+        <h3 id="user-move"></h3>
+        <h3 id="computer-move"></h3>
+        <h3 id="result"></h3>
+        <h3 id="score"></h3>
+
+        <!-- Button for reset score -->
+        <button onclick="resetGame()">Reset</button>
+
+    </div>
+    
+    <script src="cricket.js"></script>
+</body>
+</html>
