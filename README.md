@@ -53,7 +53,7 @@ bat-ball-stump-game
 
 ## 📸 Game Preview
 
-![Bat Ball Stump Game](images/game-display.png)
+![Bat Ball Stump Game](images/bat-ball-stump.png)
 
 ---
 
