@@ -67,7 +67,7 @@ git clone https://github.com/pragati-003/bat-ball-stump-game.git
 
 2. Open the project folder.
 
-3. Open `[cricket.html](https://pragati-003.github.io/bat-ball-stump-game/)` in your browser.
+3. Open https://pragati-003.github.io/bat-ball-stump-game/ in your browser.
 
 ---
 
